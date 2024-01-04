@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input {
+    width: 15rem;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    border: 2px solid transparent;
+
+}
+
+form img {
+    width: 40px;
+}
+
+form button {
+    margin-top: 8rem;
+    border-radius: 10px;
+}
+
+body {
+    text-align: center;
+    margin: 50px auto;
+    width: 50%;
+    background-image: url(pexels-photo-7256739.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+div.wrapper {
+    margin: 20px 0;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(9, 4, 19, 0.1);
+}
+
+@media (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+}
